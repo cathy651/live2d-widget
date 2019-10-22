@@ -5,24 +5,6 @@
 	}, {
 		"selector": "#waifu-tool .fa-comment",
 		"text": ["Jason 今天心情好吗？", "听说天气不错。"]
-	}, {
-		"selector": "#waifu-tool .fa-paper-plane",
-		"text": ["我们晚上吃什么好呢？"]
-	}, {
-		"selector": "#waifu-tool .fa-user-circle",
-		"text": [ "要切换形象吗？"]
-	}, {
-		"selector": "#waifu-tool .fa-street-view",
-		"text": [ "换衣服！"]
-	}, {
-		"selector": "#waifu-tool .fa-camera-retro",
-		"text": ["你要给我拍照呀？一二三～茄子～"]
-	},{
-		"selector": "#waifu-tool .fa-times",
-		"text": ["到了要说再见的时候了吗？", "呜呜 QAQ 后会有期……"]
-	}, {
-		"selector": ".menu-item-home",
-		"text": ["点它就可以回到首页啦！", "回首页看看吧。"]
 	}],
 	"click": [{
 		"selector": "#waifu #live2d",

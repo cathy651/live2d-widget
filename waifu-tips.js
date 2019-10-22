@@ -47,7 +47,7 @@ function loadWidget(waifuPath, apiPath) {
 		});
 		$("#waifu-tool .fa-times").click(() => {
 			localStorage.setItem("waifu-display", new Date().getTime());
-			showMessage("愿你有一天能与重要的人重逢。", 2000, 11);
+			showMessage("", 2000, 11);
 			$("#waifu").animate({ bottom: -500 }, 3000, () => {
 				$("#waifu").hide();
 				$("#waifu-toggle").show().animate({ "margin-left": -50 }, 1000);
@@ -56,11 +56,11 @@ function loadWidget(waifuPath, apiPath) {
 		var re = /x/;
 		console.log(re);
 		re.toString = () => {
-			showMessage("哈哈，你打开了控制台，是想要看看我的小秘密吗？", 6000, 9);
+			showMessage("", 6000, 9);
 			return "";
 		};
 		$(document).on("copy", () => {
-			showMessage("你都复制了些什么呀，转载要记得加上出处哦！", 6000, 9);
+			showMessage("", 6000, 9);
 		});
 		$(document).on("visibilitychange", () => {
 			if (!document.hidden) showMessage("哇，你终于回来了～", 6000, 9);
@@ -89,7 +89,7 @@ function loadWidget(waifuPath, apiPath) {
 		hitokotoTimer = null,
 		messageTimer = null,
 		messageArray = [ "拿小拳拳锤你胸口！"];
-	if ($(".fa-share-alt").is(":hidden")) messageArray.push("记得把小家加入Adblock白名单哦！");
+	if ($(".fa-share-alt").is(":hidden")) messageArray.push("");
 	$(document).mousemove(() => {
 		userAction = true;
 	}).keydown(() => {
@@ -189,7 +189,7 @@ function loadWidget(waifuPath, apiPath) {
 			url: `${apiPath}/rand_textures/?id=${modelId}-${modelTexturesId}`,
 			dataType: "json",
 			success: function(result) {
-				if (result.textures["id"] == 1 && (modelTexturesId == 1 || modelTexturesId == 0)) showMessage("我还没有其他衣服呢！", 4000, 10);
+				if (result.textures["id"] == 1 && (modelTexturesId == 1 || modelTexturesId == 0)) showMessage("", 4000, 10);
 				else showMessage("我的新衣服好看嘛？", 4000, 10);
 				loadModel(modelId, result.textures["id"]);
 			}

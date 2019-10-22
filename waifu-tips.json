@@ -4,7 +4,7 @@
 		"text": ["Jason快把手拿开～～"]
 	}, {
 		"selector": "#waifu-tool .fa-comment",
-		"text": ["Jason 今天心情好吗？", "听说天气不错。"]
+		"text": ["Jason 今天心情好吗？"]
 	}],
 	"click": [{
 		"selector": "#waifu #live2d",

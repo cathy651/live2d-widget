@@ -1,7 +1,7 @@
 {
 	"mouseover": [{
 		"selector": "#waifu #live2d",
-		"text": ["干嘛呢你，快把手拿开～～"]
+		"text": ["Jason快把手拿开～～"]
 	}, {
 		"selector": "#waifu-tool .fa-comment",
 		"text": ["Jason 今天心情好吗？", "听说天气不错。"]
@@ -13,7 +13,7 @@
 		"text": [ "要切换形象吗？"]
 	}, {
 		"selector": "#waifu-tool .fa-street-view",
-		"text": [ "换衣服啦！"]
+		"text": [ "换衣服！"]
 	}, {
 		"selector": "#waifu-tool .fa-camera-retro",
 		"text": ["你要给我拍照呀？一二三～茄子～"]

@@ -10,7 +10,7 @@ function loadWidget(waifuPath, apiPath) {
 			<div id="waifu-tips"></div>
 			<canvas id="live2d" width="300" height="300"></canvas>
 			<div id="waifu-tool">
-				<span class="fa fa-lg fa-comment"></span>
+				
 				<span class="fa fa-lg fa-paper-plane"></span>
 				<span class="fa fa-lg fa-user-circle"></span>
 				<span class="fa fa-lg fa-street-view"></span>
